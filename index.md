@@ -24,7 +24,6 @@ You can use the [editor on GitHub](https://github.com/mkumar9009/BoilerPlates/ed
 2. Using a Builder pattern to build a Task/Bug/Stroy
 3. An Interface which maintains the ordered movement of status in task , bug and story.
 
-```
 
 ### ClassDiangram
 [Link](https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner.drawio.png) and ![Image]([Link](https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner.drawio.png) and ![Image](src))
