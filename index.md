@@ -32,5 +32,5 @@ Image is at[https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner.dra
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
+
 
