@@ -27,10 +27,10 @@ You can use the [editor on GitHub](https://github.com/mkumar9009/BoilerPlates/ed
 ```
 
 ### ClassDiangram
-Image is at[https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner.drawio.png]
+[Link](https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner.drawio.png) and ![Image]([Link](https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner.drawio.png) and ![Image](src))
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+
 
 
