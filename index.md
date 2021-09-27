@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Welcome to BoilerPlates Repo
 
 You can use the [editor on GitHub](https://github.com/mkumar9009/BoilerPlates/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Low Level Designs of Various Sub Systems
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Design a Task Planner
+## Requirements
+- User shall be able to create Task , Bugs and Story
+- User shall be able to run a Sprint.
+- Different Status flow shall be maintained based on Task/Bug/Story.
 
-- Bulleted
-- List
+## Translation into Objects
+- Task,bug and Story has attributes like start date,end date, AssignTo, Status, Description, Subject.
+- Task, Bug and Story may have a Sprint or a project or both.
+- Story can have tasks as well as bugs.
+- User will have a role like Admin and other roles are also posiible
+- Status Flow will have a predefined sequence to flow like for a task Coding to Coding to Testing is denied, Coding to Review and then Review to testing is allowed.
 
-1. Numbered
-2. List
+
+## Class Diagram Walk Through
+1. Create an abstract class Tracker which contains common attributes for Task, Story and Bug
+2. Using a Builder pattern to build a Task/Bug/Stroy
+3. An Interface which maintains the ordered movement of status in task , bug and story.
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mkumar9009/BoilerPlates/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
