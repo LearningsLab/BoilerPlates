@@ -27,7 +27,7 @@ You can use the [editor on GitHub](https://github.com/mkumar9009/BoilerPlates/ed
 
 ### ClassDiangram
 [Link](https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner.drawio.png)
-<img src="https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner.drawio.png" >
+<img src="https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner.drawio.png?raw=true" >
 
 **Bold** and _Italic_ and `Code` text
 
