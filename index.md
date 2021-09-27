@@ -1,15 +1,11 @@
-## Welcome to BoilerPlates Repo
+## Low Level Designs of Various Sub Systems
 
 You can use the [editor on GitHub](https://github.com/mkumar9009/BoilerPlates/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-### Low Level Designs of Various Sub Systems
-
-
-
+### Design a Task Planner
 ```markdown
-Syntax highlighted code block
 
-# Design a Task Planner
+
 ## Requirements
 - User shall be able to create Task , Bugs and Story
 - User shall be able to run a Sprint.
