@@ -1,5 +1,5 @@
 package Services;
 //encoder  decoder
-public class EncDec {
+public class Encoder {
     
 }
