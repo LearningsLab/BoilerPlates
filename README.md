@@ -1,12 +1,12 @@
 # BoilerPlates
-This repo only contains the structures as per the given requirement.. so that u can use them in ur project
+  _This repo only contains the Low Level designs for given requirements_
 
 # Few Designs Included
 - Design a Task Planner
+- Design a Snake and Ladder
 
 # To be added
 - Design a Tic Tac Toe
-- Design a Snake and Ladder
 - Design a Login library
 
 # Pages Link
