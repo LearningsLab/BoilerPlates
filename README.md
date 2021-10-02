@@ -4,6 +4,7 @@
 # Few Designs Included
 - Design a Task Planner
 - Design a Snake and Ladder
+- Design a Parking Lot
 
 # To be added
 - Design a Tic Tac Toe
