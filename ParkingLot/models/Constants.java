@@ -15,4 +15,5 @@ public interface Constants {
         SUCESS,
         FAIL
     }
+    final static int MaxSlotsPerFloor=20;
 }

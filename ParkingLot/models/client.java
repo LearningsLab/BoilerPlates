@@ -10,11 +10,17 @@ public class client {
             return ParkStatus.FAIL;
         }
 
-        //if bookingService.
+        // get empty slot and book it and return status
 
-        return ParkStatus.SUCESS;
+        ParkingSlot emptySlot=pLot.getFreeSlot();
+        Boolean status=emptySlot.setBooked(true);
+        if (status){
+            return ParkStatus.SUCESS;
+        }
+
+        return ParkStatus.FAIL;
     }
-    public static void main() {
+    public static void main(String[] args) {
 
         //Create a ParkingLot
         //Add ParkingFloor to ParkingLot
@@ -24,7 +30,7 @@ public class client {
             ParkingFloor.Builder().addSlots(3,Constants.SlotTypes.CAR).buidFloor()).buidParkingLot();
         // keep a list of available slots    
         for (ParkingFloor floor:pLot.pFloors){
-            pLot.updateEmptySlots(floor);
+            pLot.initializeEmptySlots(floor);
         }
         
         Vehicle car=new Vehicle(123,"HRBU7533",VehicleType.CAR);
@@ -32,6 +38,7 @@ public class client {
         ParkStatus parkStatus=ParkVehicle(car,pLot);
         if (parkStatus==ParkStatus.SUCESS){
             System.out.println("VEhicle Parked Successfully");
+            System.out.println("Current parking inventory"+pLot.emptySlots());
         }
         
         

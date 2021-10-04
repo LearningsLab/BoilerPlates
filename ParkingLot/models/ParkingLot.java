@@ -2,7 +2,8 @@ package models;
 
 
 import java.util.ArrayList;
-import java.util.Map;
+//import java.util.Currency;
+//import java.util.Map;
 import java.util.Stack;
 
 public class ParkingLot{
@@ -28,7 +29,7 @@ public class ParkingLot{
         }
         return false;
     }
-    public Boolean updateEmptySlots(ParkingFloor floor){
+    public Boolean initializeEmptySlots(ParkingFloor floor){
          for (  ParkingSlot slot : floor.parkingSlots) {
              this.emptySlots.add(slot);
          }
@@ -38,11 +39,16 @@ public class ParkingLot{
     public ParkingSlot getFreeSlot(){
         return this.emptySlots.pop();
     }
+    public int emptySlots(){
+        return this.emptySlots.size();
+    }
 
     public static class Builder{
         private ParkingLot pLot;
         public Builder(String name,int floors){
             this.pLot=new ParkingLot(name,floors);
+            this.pLot.pFloors= new ArrayList<>();
+            this.pLot.emptySlots = new Stack<ParkingSlot>();
         }
         public Builder setName(String name){
             this.pLot.name=name;

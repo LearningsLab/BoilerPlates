@@ -1,3 +1,3 @@
-public class BugStatusFlow implements IstatusFlow{
+public class BugStatusFlow implements IStatusFlow{
     
 }
