@@ -19,7 +19,7 @@
 3. An Interface which maintains the ordered movement of status in task , bug and story.
 
 
-### ClassDiangram
+### ClassDiagram
 [Link](https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner/TaskPlanner.drawio.png)
 <img src="https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner/TaskPlanner.drawio.png?raw=true" >
 

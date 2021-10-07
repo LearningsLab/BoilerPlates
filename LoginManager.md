@@ -24,7 +24,7 @@
 To be added
 
 
-### ClassDiangram
+### ClassDiagram
 To be added
 
 ### Code 

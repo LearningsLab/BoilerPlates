@@ -28,7 +28,7 @@
 4. Building a player is done using builder pattern.
 
 
-### ClassDiangram
+### ClassDiagram
 [Link](https://github.com/mkumar9009/BoilerPlates/blob/main/SnakeLadder/Snake%26Ladder.drawio.png)
 <img src="https://github.com/mkumar9009/BoilerPlates/blob/main/SnakeLadder/Snake%26Ladder.drawio.png?raw=true" >
 

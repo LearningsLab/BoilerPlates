@@ -13,5 +13,5 @@ To be added
 To be added
 
 
-### ClassDiangram
+### ClassDiagram
 To be added
