@@ -2,6 +2,8 @@ package models;
 
 
 import java.util.ArrayList;
+// import java.util.HashMap;
+// import java.util.Map;
 //import java.util.Currency;
 //import java.util.Map;
 import java.util.Stack;
@@ -10,6 +12,7 @@ public class ParkingLot{
 
     private String name;
     ArrayList<ParkingFloor> pFloors;
+    //Map<Constants.VehicleType,Stack<ParkingSlot>> mapSlots;
     private Stack<ParkingSlot> emptySlots;
     private int maxFloors;
 
@@ -22,14 +25,16 @@ public class ParkingLot{
     public String getLocation(){
         return this.name;
     }
-    public Boolean isFull(){
-
-        if (this.emptySlots.empty()){
-            return true;
+    public Boolean isFull(Constants.SlotOrVehicleTypes stype){
+        for (ParkingFloor  floor:this.pFloors){
+            ArrayList<ParkingSlot> slots=floor.pSlots.get(stype);
+            if (slots.size()>0){
+                return false;
+            }
         }
-        return false;
+        return true;
     }
-    public Boolean initializeEmptySlots(ParkingFloor floor){
+    public Boolean makeSlotsAvailbale(ParkingFloor floor){
          for (  ParkingSlot slot : floor.parkingSlots) {
              this.emptySlots.add(slot);
          }
@@ -49,6 +54,7 @@ public class ParkingLot{
             this.pLot=new ParkingLot(name,floors);
             this.pLot.pFloors= new ArrayList<>();
             this.pLot.emptySlots = new Stack<ParkingSlot>();
+            //this.pLot.mapSlots = new HashMap<>();
         }
         public Builder setName(String name){
             this.pLot.name=name;

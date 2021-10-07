@@ -1,7 +1,7 @@
 package models;
 
 public interface Constants {
-    enum SlotTypes{
+    enum SlotOrVehicleTypes{
         CAR,
         TRUCK,
         BIKE

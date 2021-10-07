@@ -3,9 +3,9 @@ package models;
 public class Vehicle {
     private int id;
     private String identifier;
-    private Constants.VehicleType vtype;
+    private Constants.SlotOrVehicleTypes vtype;
 
-    public Vehicle(int id,String registry,Constants.VehicleType val){
+    public Vehicle(int id,String registry,Constants.SlotOrVehicleTypes val){
         this.id=id;
         this.identifier=registry;
         this.vtype=val;
@@ -16,7 +16,7 @@ public class Vehicle {
     public int getVehicleId(){
         return this.id;
     }
-    public Constants.VehicleType getVehicleType(){
+    public Constants.SlotOrVehicleTypes getVehicleType(){
         return this.vtype;
     }
 

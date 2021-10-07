@@ -4,7 +4,7 @@ import services.BookingSlotService;
 public class client {
     public BookingSlotService bookingService;
     private static ParkStatus ParkVehicle(Vehicle vehicle,ParkingLot pLot){
-        Boolean isParkingLotFull=pLot.isFull(vehicle.vtype);
+        Boolean isParkingLotFull=pLot.isFull(vehicle.getVehicleType());
 
         if (isParkingLotFull){
             return ParkStatus.FAIL;
@@ -27,13 +27,13 @@ public class client {
         //Add Parking Slot to Parking Floor
         
         ParkingLot pLot= new ParkingLot.Builder("MALLROAD",5).addFloor(0,new 
-            ParkingFloor.Builder().addSlots(3,Constants.SlotTypes.CAR).buidFloor()).buidParkingLot();
+            ParkingFloor.Builder().addSlots(3,Constants.SlotOrVehicleTypes.CAR).buidFloor()).buidParkingLot();
         // keep a list of available slots    
         for (ParkingFloor floor:pLot.pFloors){
             pLot.makeSlotsAvailbale(floor);
         }
         
-        Vehicle car=new Vehicle(123,"HRBU7533",VehicleType.CAR);
+        Vehicle car=new Vehicle(123,"HRBU7533",SlotOrVehicleTypes.CAR);
 
         ParkStatus parkStatus=ParkVehicle(car,pLot);
         if (parkStatus==ParkStatus.SUCESS){

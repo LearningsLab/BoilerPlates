@@ -5,10 +5,10 @@ import java.util.Map;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import models.Constants.SlotTypes;
+//import models.Constants.SlotOrVehicleTypes;
 
 public class ParkingFloor {
-    private Map<ParkingSlot,Enum<SlotTypes>> pSlots;
+    Map<Constants.SlotOrVehicleTypes,ArrayList<ParkingSlot>> pSlots;
     ArrayList<ParkingSlot> parkingSlots;
     //private int maxSlots;
     private int lastSlotNo=0;
@@ -26,11 +26,11 @@ public class ParkingFloor {
 
         public Builder(){
             this.pFloor=new ParkingFloor();
-            this.pFloor.pSlots=new HashMap<ParkingSlot,Enum<SlotTypes>>();
+            this.pFloor.pSlots=new HashMap<Constants.SlotOrVehicleTypes,ArrayList<ParkingSlot>>();
             this.pFloor.parkingSlots = new ArrayList<>();
         }
 
-        public Builder addSlots(int no,Constants.SlotTypes type){
+        public Builder addSlots(int no,Constants.SlotOrVehicleTypes type){
             //throw exception if parking slot capacity is exceeding
             //System.out.println("parkingfloor   "+this.pFloor.pSlots);
             if (no+this.pFloor.pSlots.size()>=Constants.MaxSlotsPerFloor){
@@ -40,7 +40,15 @@ public class ParkingFloor {
             
             for (int i=0;i<no;i++){
                 ParkingSlot newSlot=new ParkingSlot.Builder().addLoc(++this.pFloor.lastSlotNo).buid();
-                this.pFloor.pSlots.put(newSlot, type);
+                System.out.println("slot "+ this.pFloor.pSlots.get(type));
+                ArrayList<ParkingSlot> tmp=new ArrayList<ParkingSlot>();
+                if (this.pFloor.pSlots.get(type)!=null){
+                    tmp = this.pFloor.pSlots.get(type);
+                }
+                
+                System.out.println("tmp value"+tmp);
+                tmp.add(newSlot);
+                this.pFloor.pSlots.put(type,tmp);
                 this.pFloor.parkingSlots.add(newSlot);
             }
             
