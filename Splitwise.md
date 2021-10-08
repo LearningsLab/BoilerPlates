@@ -17,6 +17,13 @@
 - expense has splitting strategy
 - expense has payers-split ratio and borrowers split-ratio map.
 
+## Expected Queries
+- User Dashboard showing the net balance
+- User Dashboard showing net balance in each group
+- User Group expense History
+- user transactions History
+
+
 ## Class Diagram Walk Through
 To be added
 

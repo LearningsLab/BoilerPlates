@@ -9,6 +9,8 @@
 To be added
 
 
+## Expected Queries
+
 ## Class Diagram Walk Through
 To be added
 
