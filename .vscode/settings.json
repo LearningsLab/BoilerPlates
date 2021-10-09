@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "TicTacToe",
+        "Chess",
+        "ParkingLot",
+        "SnakeLadder",
+        "LoginPackage",
+        "TaskPlanner",
+        "Splitwise"
+    ]
+}
