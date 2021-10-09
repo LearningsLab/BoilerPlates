@@ -32,4 +32,4 @@ To be added
 To be added
 
 ### Code 
-[Link](https://github.com/mkumar9009/BoilerPlates/tree/main/Splitwise)
+[Link](https://github.com/LearningsLab/BoilerPlates/tree/main/Splitwise)

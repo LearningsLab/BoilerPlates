@@ -19,7 +19,9 @@
     - Response handler
     - Authorizer
     - Authenticator
- 
+
+## Expected Queries
+
 ## Class Diagram Walk Through
 To be added
 
@@ -28,4 +30,4 @@ To be added
 To be added
 
 ### Code 
-[Link](https://github.com/mkumar9009/BoilerPlates/tree/main/LoginPackage)
+[Link](https://github.com/LearningsLab/BoilerPlates/tree/main/LoginPackage)

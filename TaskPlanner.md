@@ -13,6 +13,8 @@
 - Status Flow will have a predefined sequence to flow like for a task Coding to Coding to Testing is denied, Coding to Review and then Review to testing is allowed.
 
 
+## Expected Queries
+
 ## Class Diagram Walk Through
 1. Create an abstract class Tracker which contains common attributes for Task, Story and Bug
 2. Using a Builder pattern to build a Task/Bug/Stroy
@@ -20,8 +22,8 @@
 
 
 ### ClassDiagram
-[Link](https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner/TaskPlanner.drawio.png)
-<img src="https://github.com/mkumar9009/BoilerPlates/blob/main/TaskPlanner/TaskPlanner.drawio.png?raw=true" >
+[Link](https://github.com/LearningsLab/BoilerPlates/blob/main/TaskPlanner/TaskPlanner.drawio.png)
+<img src="https://github.com/LearningsLab/BoilerPlates/blob/main/TaskPlanner/TaskPlanner.drawio.png?raw=true" >
 
 ### Code 
-[Link](https://github.com/mkumar9009/BoilerPlates/tree/main/TaskPlanner)
+[Link](https://github.com/LearningsLab/BoilerPlates/tree/main/TaskPlanner)

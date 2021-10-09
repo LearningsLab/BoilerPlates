@@ -1,4 +1,4 @@
-### Design Splitwise
+### Design ParkingLot
 
 ## Requirements
 - User shall be able to park his car
@@ -15,12 +15,14 @@
 - Floors shall have empty slots so that to get empty slots in O1 time.
 - We need to have pricing strategy for slots
 
+## Expected Queries
+
 ## Class Diagram Walk Through
 To be added
 
 
-### ClassDiangram
+### ClassDiagram
 To be added
 
 ### Code 
-[Link](https://github.com/mkumar9009/BoilerPlates/tree/main/ParkingLot)
+[Link](https://github.com/LearningsLab/BoilerPlates/tree/main/ParkingLot)

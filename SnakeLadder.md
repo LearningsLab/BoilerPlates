@@ -20,6 +20,8 @@
   - We can have Human Players
 - Dice behavior has to be uniform for all the numbers being generated.
 
+## Expected Queries
+
 
 ## Class Diagram Walk Through
 1. Board and cells need to be built.
@@ -29,8 +31,8 @@
 
 
 ### ClassDiagram
-[Link](https://github.com/mkumar9009/BoilerPlates/blob/main/SnakeLadder/Snake%26Ladder.drawio.png)
-<img src="https://github.com/mkumar9009/BoilerPlates/blob/main/SnakeLadder/Snake%26Ladder.drawio.png?raw=true" >
+[Link](https://github.com/LearningsLab/BoilerPlates/blob/main/SnakeLadder/Snake%26Ladder.drawio.png)
+<img src="https://github.com/LearningsLab/BoilerPlates/blob/main/SnakeLadder/Snake%26Ladder.drawio.png?raw=true" >
 
 ### Code 
-[Link](https://github.com/mkumar9009/BoilerPlates/tree/main/SnakeLadder)
+[Link](https://github.com/LearningsLab/BoilerPlates/tree/main/SnakeLadder)
