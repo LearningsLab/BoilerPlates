@@ -1,4 +1,4 @@
-### Design a Snake-Ladder Game
+# Design a Snake-Ladder Game
 
 ## Requirements
 - Players shall be able to play the game with snakes and ladder on a board having 100 cells.
@@ -37,5 +37,4 @@
 ### Code 
 [Link](https://github.com/LearningsLab/BoilerPlates/tree/main/SnakeLadder)
 
-# HomePage
-[Link](https://learningslab.github.io/)
+### [Back2HomePage](https://learningslab.github.io/BoilerPlates) 

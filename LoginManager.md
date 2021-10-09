@@ -1,4 +1,4 @@
-### Design a Login Manager
+# Design a Login Manager
 
 ## Requirements
 - It shall authorize all the requests
@@ -32,5 +32,4 @@ To be added
 ### Code 
 [Link](https://github.com/LearningsLab/BoilerPlates/tree/main/LoginPackage)
 
-# HomePage
-[Link](https://learningslab.github.io/)
+### [Back2HomePage](https://learningslab.github.io/BoilerPlates) 

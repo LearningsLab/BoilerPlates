@@ -1,4 +1,4 @@
-### Design Splitwise
+# Design Splitwise
 
 ## Requirements
 - User shall be able to add an expense and split with someone from contacts if required
@@ -39,5 +39,4 @@ To be added
 ### Code 
 [Link](https://github.com/LearningsLab/BoilerPlates/tree/main/Splitwise)
 
-# HomePage
-[Link](https://learningslab.github.io/)
+### [Back2HomePage](https://learningslab.github.io/BoilerPlates) 

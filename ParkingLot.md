@@ -1,4 +1,4 @@
-### Design ParkingLot
+# Design ParkingLot
 
 ## Requirements
 - User shall be able to park his car
@@ -27,5 +27,4 @@ To be added
 ### Code 
 [Link](https://github.com/LearningsLab/BoilerPlates/tree/main/ParkingLot)
 
-# HomePage
-[Link](https://learningslab.github.io/)
+### [Back2HomePage](https://learningslab.github.io/BoilerPlates) 

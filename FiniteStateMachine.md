@@ -1,4 +1,4 @@
-### Design a Infinite State Machine
+# Design a Infinite State Machine
 
 ## Requirements
 - The machine should have one start state and can have multiple end states.
@@ -18,5 +18,4 @@ To be added
 ### ClassDiagram
 To be added
 
-# HomePage
-[Link](https://learningslab.github.io/)
+### Back2HomePage[Link](https://learningslab.github.io/BoilerPlates) 

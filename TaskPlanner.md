@@ -1,4 +1,4 @@
-### Design a Task Planner
+# Design a Task Planner
 
 ## Requirements
 - User shall be able to create Task , Bugs and Story
@@ -28,5 +28,4 @@
 ### Code 
 [Link](https://github.com/LearningsLab/BoilerPlates/tree/main/TaskPlanner)
 
-# HomePage
-[Link](https://learningslab.github.io/)
+### [Back2HomePage](https://learningslab.github.io/BoilerPlates) 
