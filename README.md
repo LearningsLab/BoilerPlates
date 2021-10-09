@@ -2,7 +2,7 @@
   _This repo only contains the Low Level designs for given requirements_
 
 ## Web Link
-https://mkumar9009.github.io/BoilerPlates/
+https://learningslab.github.io/BoilerPlates/
 
 ## Few Designs Included
 - Design a Task Planner
