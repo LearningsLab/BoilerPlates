@@ -20,6 +20,8 @@ https://learningslab.github.io/BoilerPlates/
   - Boiler Plate Code
 
 ## To be added
+- Design a Delivery Route Service for Warehouses/Kitchens
+- Design a Subscription Service
 - Design a Tic Tac Toe
 - Design a Chess Game
 - Design Google Photos
