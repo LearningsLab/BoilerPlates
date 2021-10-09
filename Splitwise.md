@@ -29,7 +29,13 @@ To be added
 
 
 ### ClassDiagram
+[Link](https://github.com/LearningsLab/BoilerPlates/blob/main/Splitwise/Splitwise.drawio.png?raw=true)
+<img src="https://github.com/LearningsLab/BoilerPlates/blob/main/Splitwise/Splitwise.drawio.png?raw=true" >
+
+
+### Design Trade Offs
 To be added
 
 ### Code 
 [Link](https://github.com/LearningsLab/BoilerPlates/tree/main/Splitwise)
+
