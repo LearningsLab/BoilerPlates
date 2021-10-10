@@ -98,24 +98,4 @@ u1 Expense u2 u3 MultiPay 500 300 200 Percent 20 30 50 Desc Netflix subscription
 > u1 owes 20% (200Rs), u2 owes 30% (300Rs) and u3 owes 50% (500Rs).
 
 -- --
-
-
-u1 can add an expense what other users?
-- either from a group - g1
-- specific people - u2 u3 u4
-
-who paid
-- iPaid amount
-- Multipay a1 a2 a3 ...
-
-who owes what
-- equal
-- by percentage
-- by ratio
-- exact amount: 100/3
-
-- make the reasonable assumptions 100/3 = 33.33 assign one person 33.34 and the rest 33.33
-
-u1 Expense g1 iPay 1000 Percentage 10 20 30 40
-
-Assume that the members in the group are organised by their userids in ascending order
+reference from https://github.com/Naman-Bhalla/splitwise
