@@ -16,6 +16,8 @@
 - We need to have pricing strategy for slots
 
 ## Expected Queries
+ - Free parking Slots of Particular Slot Type
+ - is ParkingLot full
 
 ## Class Diagram Walk Through
 To be added
