@@ -21,6 +21,7 @@
     - Authenticator
 
 ## Expected Queries
+- To be added
 
 ## Class Diagram Walk Through
 To be added
