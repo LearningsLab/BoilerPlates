@@ -21,7 +21,8 @@
 - Dice behavior has to be uniform for all the numbers being generated.
 
 ## Expected Queries
-
+- Whose turn?
+- To be added
 
 ## Class Diagram Walk Through
 1. Board and cells need to be built.
