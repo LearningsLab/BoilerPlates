@@ -9,14 +9,16 @@ import Controllers.DTO.Response;
 import Services.UserService;
 
 public class UserController {
-    private UserController userController=null;
+    private static UserController userController=null;
     private UserService userService;
-    public UserController(){
-        this.userService = new UserService();
-    }
+
     public UserController getInstance(){
         if (userController==null){
         UserController userController=new UserController();
+        //TODO
+        // is this way correct to create service?? we dont need constructor function this way
+        this.userController.userService = new UserService(); 
+
         }
         return userController;
     }

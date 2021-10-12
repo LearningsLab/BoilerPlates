@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import Controllers.GroupController;
 import Controllers.UserController;
 import Services.GroupService;
 import Services.UserService;
@@ -25,8 +26,9 @@ public class client {
         users.add(u2);
 
         //u1 creates grp
-        UserController userController = new UserController();
-        Group grp1 = userController.createGrp(u1);
+        
+        GroupController grpController = new GroupController();
+        Group grp1 = grpController.CreatetGrp(u1);
         grp1.adduser(u3);
 
         //contributors
@@ -50,8 +52,7 @@ public class client {
         Expense expense1 =  new Expense.Builder(u1).setContributors(contribs).setpayees(receivers).setAmt(1000.0f).buildExpense();
         grp1.addExpense(expense1);
         
-        GroupService gService = new GroupService();
-        gService.settleup(grp1);
+        grpController.getgrpService().settleup(grp1);
         //groupService.settleup(grp1);
         
     }
