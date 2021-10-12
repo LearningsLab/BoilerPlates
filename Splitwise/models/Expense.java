@@ -1,5 +1,6 @@
 package models;
 import java.util.Map;
+import java.util.ArrayList;
 
 import Config.Constants;
 
@@ -10,6 +11,8 @@ public class Expense {
     private Map<User,Float> payees;
     private Constants.SplitStrategy splitStrategy;
     private Group grp;
+    private User creator;
+    private User admin;
 
     public Float getExpenseAmt(){
         return this.amt;
@@ -26,10 +29,24 @@ public class Expense {
     public Group getExpenseGrp(){
         return this.grp;
     }
+    public User getAdmin() {
+        return admin;
+    }
+    public User getCreator() {
+        return creator;
+    }
+    public Float getAmt() {
+        return amt;
+    }
+    public Group getGrp() {
+        return grp;
+    }
+
     public static class Builder{
         private Expense expense;
-        public Builder(){
+        public Builder(User user){
             this.expense = new Expense();
+            this.expense.creator = user;
         }
 
         public Builder setAmt(Float amt){

@@ -1,22 +1,40 @@
 package models;
 
 import java.util.ArrayList;
+import java.util.Map;
 
 public class Group {
-    private ArrayList<User> users;
+    private ArrayList<User> members;
     private ArrayList<Expense> expenses;
     private ArrayList<Txn> txns;
     private Boolean isSetteled;
+    private ArrayList<User> adminUsers; // only 1 admin user supported
+    private Map<User,Float> membersNetBal;
     
     public Group (ArrayList<User> grpMembers){
-        this.users=grpMembers;
+        this.members=grpMembers;
+        this.adminUsers=grpMembers;
+        this.expenses = new ArrayList<Expense>();
+        this.txns = new ArrayList<Txn>();
     }
-
-    public ArrayList<Expense> getexpExpenses(){
+    public ArrayList<User> getAdminUsers(){
+        return this.adminUsers;
+    }
+    public ArrayList<User>getUsers(){
+        return this.members;
+    }
+    public void setmembersNetBal(Map<User,Float> usersNetBal){
+        this.membersNetBal=usersNetBal;
+        return;
+    }
+    public Map<User, Float> getMembersNetBal() {
+        return membersNetBal;
+    }
+    public ArrayList<Expense> getexpenses(){
         return this.expenses;
     }
     public ArrayList<User> getGrpMembers(){
-        return this.users;
+        return this.members;
     }
     public ArrayList<Txn> getTxns(){
         return this.txns;
@@ -24,19 +42,20 @@ public class Group {
     public Boolean isSettled(){
         return this.isSetteled;
     }
+    public Boolean setSettled(){
+        this.isSetteled=true;
+        return this.isSetteled;
+    }
     public Expense addExpense(Expense expense){
         this.expenses.add(expense);
         return this.expenses.get(this.expenses.size()-1);
     }
     public ArrayList<User> adduser(User u){
-        this.users.add(u);
-        return this.users;
+        this.members.add(u);
+        this.membersNetBal.put(u,0f); // update grp member net balance
+        return this.members;
     }
-    public Boolean settleup(){
-        //Code To be added here
-        
-        return this.isSetteled;
-    }
+
 
 
 
