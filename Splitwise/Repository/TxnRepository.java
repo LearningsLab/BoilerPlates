@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import models.Txn;
 
-public class TxnRepository {
+public class TxnRepository implements IRepository {
 
     private static TxnRepository txnRepo=null;
     private Txn txn;
