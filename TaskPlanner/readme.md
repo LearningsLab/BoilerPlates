@@ -14,6 +14,8 @@
 
 
 ## Expected Queries
+- Sprint Tasks/Bugs/Stories with Filters like date/status/assignTo etc.
+- User Tasks/Bug/Stories with Filters
 
 ## Class Diagram Walk Through
 1. Create an abstract class Tracker which contains common attributes for Task, Story and Bug
