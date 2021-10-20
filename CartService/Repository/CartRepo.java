@@ -1,6 +1,6 @@
 package Repository;
 
 
-public class CartRepo implements IRepository {
+public class CartRepo implements IRepo {
     
 }

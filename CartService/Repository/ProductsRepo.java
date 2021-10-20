@@ -1,6 +1,6 @@
 package Repository;
 
 
-public class ProductsRepo implements IRepository {
+public class ProductsRepo implements IRepo {
     
 }
