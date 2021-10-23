@@ -29,6 +29,33 @@ https://learningslab.github.io/BoilerPlates/
 - Design a Job Scheduler
 - Design a Web Crawler
 
+
+## Common Design Pattern Use Cases
+
+### Adapter Design Pattern
+- It combines the two incompatible interfaces/components so that client or other code changes can be avoided
+
+### Builder Design Pattern
+- When we have multiple attributes which can just explode the no of constructors of that class. Using Builder Pattern we can just create the immutable object.
+
+### Factory Design Pattern
+- when we need to create different types of objects in the application. Factory pattern helps in organising the code
+
+### Fly Weight Design Pattern
+
+### Singleton Design Pattern
+- when we just need to have single object of the class thoughtout the application
+ 
+### Decorator Design Pattern
+
+### Strategy Design Pattern
+
+### Prototype Design Pattern
+
+### Proxy Design Pattern
+
+
+
 # Want to Contribute ??
 
 ### Add/Update a Design Problem
